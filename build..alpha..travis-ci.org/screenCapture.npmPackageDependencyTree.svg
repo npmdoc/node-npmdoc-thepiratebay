@@ -1,0 +1,53 @@
+<svg height="798" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="798" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">11 megabytes installed</tspan>
+<tspan x="10" y="42"></tspan>
+<tspan x="10" y="58">node_modules</tspan>
+<tspan x="10" y="74">└─┬ thepiratebay@1.3.5 </tspan>
+<tspan x="10" y="90">  ├─┬ babel-runtime@6.23.0 </tspan>
+<tspan x="10" y="106">  │ ├── core-js@2.4.1 </tspan>
+<tspan x="10" y="122">  │ └── regenerator-runtime@0.10.3 </tspan>
+<tspan x="10" y="138">  ├─┬ cheerio@0.22.0 </tspan>
+<tspan x="10" y="154">  │ ├─┬ css-select@1.2.0 </tspan>
+<tspan x="10" y="170">  │ │ ├── boolbase@1.0.0 </tspan>
+<tspan x="10" y="186">  │ │ ├── css-what@2.1.0 </tspan>
+<tspan x="10" y="202">  │ │ ├── domutils@1.5.1 </tspan>
+<tspan x="10" y="218">  │ │ └── nth-check@1.0.1 </tspan>
+<tspan x="10" y="234">  │ ├─┬ dom-serializer@0.1.0 </tspan>
+<tspan x="10" y="250">  │ │ └── domelementtype@1.1.3 </tspan>
+<tspan x="10" y="266">  │ ├── entities@1.1.1 </tspan>
+<tspan x="10" y="282">  │ ├─┬ htmlparser2@3.9.2 </tspan>
+<tspan x="10" y="298">  │ │ ├── domelementtype@1.3.0 </tspan>
+<tspan x="10" y="314">  │ │ ├── domhandler@2.3.0 </tspan>
+<tspan x="10" y="330">  │ │ ├── inherits@2.0.3 </tspan>
+<tspan x="10" y="346">  │ │ └─┬ readable-stream@2.2.7 </tspan>
+<tspan x="10" y="362">  │ │   ├── buffer-shims@1.0.0 </tspan>
+<tspan x="10" y="378">  │ │   ├── core-util-is@1.0.2 </tspan>
+<tspan x="10" y="394">  │ │   ├── isarray@1.0.0 </tspan>
+<tspan x="10" y="410">  │ │   ├── process-nextick-args@1.0.7 </tspan>
+<tspan x="10" y="426">  │ │   ├── string_decoder@1.0.0 </tspan>
+<tspan x="10" y="442">  │ │   └── util-deprecate@1.0.2 </tspan>
+<tspan x="10" y="458">  │ ├── lodash.assignin@4.2.0 </tspan>
+<tspan x="10" y="474">  │ ├── lodash.bind@4.2.1 </tspan>
+<tspan x="10" y="490">  │ ├── lodash.defaults@4.2.0 </tspan>
+<tspan x="10" y="506">  │ ├── lodash.filter@4.6.0 </tspan>
+<tspan x="10" y="522">  │ ├── lodash.flatten@4.4.0 </tspan>
+<tspan x="10" y="538">  │ ├── lodash.foreach@4.5.0 </tspan>
+<tspan x="10" y="554">  │ ├── lodash.map@4.6.0 </tspan>
+<tspan x="10" y="570">  │ ├── lodash.merge@4.6.0 </tspan>
+<tspan x="10" y="586">  │ ├── lodash.pick@4.4.0 </tspan>
+<tspan x="10" y="602">  │ ├── lodash.reduce@4.6.0 </tspan>
+<tspan x="10" y="618">  │ ├── lodash.reject@4.6.0 </tspan>
+<tspan x="10" y="634">  │ └── lodash.some@4.6.0 </tspan>
+<tspan x="10" y="650">  ├─┬ isomorphic-fetch@2.2.1 </tspan>
+<tspan x="10" y="666">  │ ├─┬ node-fetch@1.6.3 </tspan>
+<tspan x="10" y="682">  │ │ ├─┬ encoding@0.1.12 </tspan>
+<tspan x="10" y="698">  │ │ │ └── iconv-lite@0.4.15 </tspan>
+<tspan x="10" y="714">  │ │ └── is-stream@1.1.0 </tspan>
+<tspan x="10" y="730">  │ └── whatwg-fetch@2.0.3 </tspan>
+<tspan x="10" y="746">  └─┬ url-parse@1.1.8 </tspan>
+<tspan x="10" y="762">    ├── querystringify@0.0.4 </tspan>
+<tspan x="10" y="778">    └── requires-port@1.0.0</tspan>
+</text>
+</svg>
