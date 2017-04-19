@@ -47,7 +47,7 @@
 }
 </style>
 <h1>api documentation for
-    <a href="http://github.com/t3chnoboy/thepiratebay">thepiratebay (v1.3.5)</a>
+    <a href="http://github.com/t3chnoboy/thepiratebay">thepiratebay (v1.4.0)</a>
 </h1>
 <h4>The pirate bay client</h4>
 <div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
@@ -68,6 +68,15 @@
             <a class="apidocElementLiA" href="#apidoc.element.thepiratebay.getCategories">
             function <span class="apidocSignatureSpan">thepiratebay.</span>getCategories
             <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.thepiratebay.getComments">
+            function <span class="apidocSignatureSpan">thepiratebay.</span>getComments
+            <span class="apidocSignatureSpan">(id)</span>
             </a>
 
         </li>
@@ -129,6 +138,12 @@
         <li>
 
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">thepiratebay.</span>Parser</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">thepiratebay.</span>PirateBay</span>
 
         </li>
 
@@ -207,6 +222,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.thepiratebay.Parser.parseCommentsPage">
+            function <span class="apidocSignatureSpan">thepiratebay.Parser.</span>parseCommentsPage
+            <span class="apidocSignatureSpan">(commentsHTML)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.thepiratebay.Parser.parsePage">
             function <span class="apidocSignatureSpan">thepiratebay.Parser.</span>parsePage
             <span class="apidocSignatureSpan">(url, parseCallback)</span>
@@ -252,6 +276,115 @@
 
     </ol></li>
 
+    <li class="apidocModuleLi"><a href="#apidoc.module.thepiratebay.PirateBay">module thepiratebay.PirateBay</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.thepiratebay.PirateBay.convertOrderByObject">
+            function <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>convertOrderByObject
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.thepiratebay.PirateBay.getCategories">
+            function <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>getCategories
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.thepiratebay.PirateBay.getComments">
+            function <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>getComments
+            <span class="apidocSignatureSpan">(id)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.thepiratebay.PirateBay.getTorrent">
+            function <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>getTorrent
+            <span class="apidocSignatureSpan">(id)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.thepiratebay.PirateBay.getTvShow">
+            function <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>getTvShow
+            <span class="apidocSignatureSpan">(id)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.thepiratebay.PirateBay.recentTorrents">
+            function <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>recentTorrents
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.thepiratebay.PirateBay.search">
+            function <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>search
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.thepiratebay.PirateBay.topTorrents">
+            function <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>topTorrents
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.thepiratebay.PirateBay.userTorrents">
+            function <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>userTorrents
+            <span class="apidocSignatureSpan">(username)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>default</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>defaultOrder</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>primaryCategoryNumbers</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>baseUrl</span>
+
+        </li>
+
+    </ol></li>
+
     <li class="apidocModuleLi"><a href="#apidoc.module.thepiratebay.default">module thepiratebay.default</a><ol>
 
         <li>
@@ -259,6 +392,15 @@
             <a class="apidocElementLiA" href="#apidoc.element.thepiratebay.default.getCategories">
             function <span class="apidocSignatureSpan">thepiratebay.default.</span>getCategories
             <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.thepiratebay.default.getComments">
+            function <span class="apidocSignatureSpan">thepiratebay.default.</span>getComments
+            <span class="apidocSignatureSpan">(id)</span>
             </a>
 
         </li>
@@ -382,6 +524,24 @@ PirateBay.<span class="apidocCodeKeywordSpan">getCategories</span>()
   subcategories:
    [ { id: '201', name: 'Movies' },
 ...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.thepiratebay.getComments" id="apidoc.element.thepiratebay.getComments">
+        function <span class="apidocSignatureSpan">thepiratebay.</span>getComments
+        <span class="apidocSignatureSpan">(id)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getComments(id) {
+  var url = baseUrl + '/ajax_details_comments.php';
+  var formData = new _formData2.default();
+  formData.append('id', id);
+  return (0, _Parser.parsePage)(url, _Parser.parseCommentsPage, {}, 'POST', formData);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -628,6 +788,8 @@ PirateBay.<span class="apidocCodeKeywordSpan">userTorrents</span>('YIFY', {
 
 
 
+
+
 </div>
 
 <div class="apidocSectionDiv">
@@ -735,6 +897,33 @@ PirateBay.<span class="apidocCodeKeywordSpan">userTorrents</span>('YIFY', {
 
 
     <h2>
+        <a href="#apidoc.element.thepiratebay.Parser.parseCommentsPage" id="apidoc.element.thepiratebay.Parser.parseCommentsPage">
+        function <span class="apidocSignatureSpan">thepiratebay.Parser.</span>parseCommentsPage
+        <span class="apidocSignatureSpan">(commentsHTML)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function parseCommentsPage(commentsHTML) {
+  var $ = _cheerio2.default.load(commentsHTML);
+
+  var comments = $.root().contents().map(function getRawComments() {
+    var comment = $(this).find('div.comment').text().trim();
+    var user = $(this).find('a').text().trim();
+
+    return {
+      user: user,
+      comment: comment
+    };
+  });
+
+  return comments.get();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
         <a href="#apidoc.element.thepiratebay.Parser.parsePage" id="apidoc.element.thepiratebay.Parser.parsePage">
         function <span class="apidocSignatureSpan">thepiratebay.Parser.</span>parsePage
         <span class="apidocSignatureSpan">(url, parseCallback)</span>
@@ -742,13 +931,16 @@ PirateBay.<span class="apidocCodeKeywordSpan">userTorrents</span>('YIFY', {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function parsePage(url, parseCallback) {
+  var filter = arguments.length &gt; 2 &amp;&amp; arguments[2] !== undefined ? arguments[2] : {};
+
   var _this = this;
 
-  var filter = arguments.length &gt; 2 &amp;&amp; arguments[2] !== undefined ? arguments[2] : {};
+  var method = arguments.length &gt; 3 &amp;&amp; arguments[3] !== undefined ? arguments[3] : 'GET';
+  var formData = arguments.length &gt; 4 &amp;&amp; arguments[4] !== undefined ? arguments[4] : {};
 
   var attempt = function () {
     var _ref2 = (0, _asyncToGenerator3.default)(_regenerator2.default.mark(function _callee2(error) {
-      var proxyUrls, requests, abandonFailedResponses, race;
+      var proxyUrls, options, requests, abandonFailedResponses, race;
       return _regenerator2.default.wrap(function _callee2$(_context2) {
         while (1) {
           switch (_context2.prev = _context2.next) {
@@ -756,15 +948,23 @@ PirateBay.<span class="apidocCodeKeywordSpan">userTorrents</span>('YIFY', {
               if (error) console.log(error);
 
               proxyUrls = ['https://thepiratebay.org', 'https://thepiratebay.se', 'https://pirateproxy.one', 'https://ahoy.one'];
+              options = {
+                mode: 'no-cors',
+                method: method,
+                body: formData
+              };
               requests = proxyUrls.map(function (_url) {
                 return new _urlParse2.default(url).set('hostname', new _urlParse2.default(_url).hostname).href;
               }).map(function (_url) {
-                return (0, _isomorphicFetch2.default)(_url, { mode: 'no-cors' }).then(function (response) {
-                  return response.text();
-                }).then(function (body) {
-                  return body.includes('502: Bad gateway') || body.includes('Database maintenance') ? _promise2.default.reject('
-Database maintenance or 502 error') : _promise2.default.resolve(body);
-                });
+                return (
+                  // $FlowFixMe - To avoid unnessary object type conversion, https://github.com/facebook/flow/issues/1606
+                  (0, _isomorphicFetch2.default)(_url, options).then(function (response) {
+                    return response.text();
+                  }).then(function (body) {
+                    return body.includes('502: Bad gateway') || body.includes('Database maintenance') ? _promise2.default.reject
+('Database maintenance or 502 error') : _promise2.default.resolve(body);
+                  })
+                );
               });
 
               abandonFailedResponses = function abandonFailedResponses(index) {
@@ -789,7 +989,7 @@ Database maintenance or 502 error') : _promise2.default.resolve(body);
 
               return _context2.abrupt('return', race(requests));
 
-            case 6:
+            case 7:
             case 'end':
               return _context2.stop();
           }
@@ -797,7 +997,7 @@ Database maintenance or 502 error') : _promise2.default.resolve(body);
       }, _callee2, _this);
     }));
 
-    return function attempt(_x2) {
+    return function attempt(_x4) {
       return _ref2.apply(this, arguments);
     };
   }();
@@ -998,6 +1198,331 @@ Database maintenance or 502 error') : _promise2.default.resolve(body);
 </div>
 
 <div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.thepiratebay.PirateBay" id="apidoc.module.thepiratebay.PirateBay">module thepiratebay.PirateBay</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.thepiratebay.PirateBay.convertOrderByObject" id="apidoc.element.thepiratebay.PirateBay.convertOrderByObject">
+        function <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>convertOrderByObject
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function convertOrderByObject() {
+  var orderByObject = arguments.length &gt; 0 &amp;&amp; arguments[0] !== undefined ? arguments[0] : defaultOrder;
+
+  var options = [['name', 'desc'], ['name', 'asc'], ['date', 'desc'], ['date', 'asc'], ['size', 'desc'], ['size', 'asc'], ['seeds
+', 'desc'], ['seeds', 'asc'], ['leeches', 'desc'], ['leeches', 'asc']];
+
+  // Find the query option
+  var option = options.find(function (_option) {
+    return _option.includes(orderByObject.orderBy) &amp;&amp; _option.includes(orderByObject.sortBy);
+  });
+
+  // Get the index of the query option
+  var searchNumber = option ? options.indexOf(option) + 1 : undefined;
+
+  if (!searchNumber) throw Error("Can't find option");
+
+  return searchNumber;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.thepiratebay.PirateBay.getCategories" id="apidoc.element.thepiratebay.PirateBay.getCategories">
+        function <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>getCategories
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getCategories() {
+  return (0, _Parser.parsePage)(baseUrl + '/recent', _Parser.parseCategories);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+sortBy: 'asc'
+})
+```
+
+### getCategories
+```javascript
+// Gets all available categories on piratebay
+PirateBay.<span class="apidocCodeKeywordSpan">getCategories</span>()
+
+/* Returns an array of categories and subcategories
+[
+{ name: 'Video',
+  id: '200',
+  subcategories:
+   [ { id: '201', name: 'Movies' },
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.thepiratebay.PirateBay.getComments" id="apidoc.element.thepiratebay.PirateBay.getComments">
+        function <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>getComments
+        <span class="apidocSignatureSpan">(id)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getComments(id) {
+  var url = baseUrl + '/ajax_details_comments.php';
+  var formData = new _formData2.default();
+  formData.append('id', id);
+  return (0, _Parser.parsePage)(url, _Parser.parseCommentsPage, {}, 'POST', formData);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.thepiratebay.PirateBay.getTorrent" id="apidoc.element.thepiratebay.PirateBay.getTorrent">
+        function <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>getTorrent
+        <span class="apidocSignatureSpan">(id)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getTorrent(id) {
+  var url = function () {
+    if ((typeof id === 'undefined' ? 'undefined' : (0, _typeof3.default)(id)) === 'object') {
+      return id.link;
+    }
+    return typeof id === 'number' || /^\d+$/.test(id) ? baseUrl + '/torrent/' + id :
+    // If id is an object return it's link property. Otherwise,
+    // return 'id' itself
+    id;
+  }();
+
+  return (0, _Parser.parsePage)(url, _Parser.parseTorrentPage);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+*/
+```
+
+### getTorrent
+```javascript
+// takes an id or a link
+PirateBay
+.<span class="apidocCodeKeywordSpan">getTorrent</span>('10676856')
+.then(results =&gt; console.log(results))
+.catch(err =&gt; console.log(err))
+
+/* Returns a single torrent's description
+{
+name: 'The Amazing Spider-Man 2 (2014) 1080p BrRip x264 - YIFY',
+filesCount: 2,
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.thepiratebay.PirateBay.getTvShow" id="apidoc.element.thepiratebay.PirateBay.getTvShow">
+        function <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>getTvShow
+        <span class="apidocSignatureSpan">(id)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getTvShow(id) {
+  return (0, _Parser.parsePage)(baseUrl + '/tv/' + id, _Parser.parseTvShow);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.thepiratebay.PirateBay.recentTorrents" id="apidoc.element.thepiratebay.PirateBay.recentTorrents">
+        function <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>recentTorrents
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function recentTorrents() {
+  return (0, _Parser.parsePage)(baseUrl + '/recent', _Parser.parseResults);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+// returns top 100 torrents for the category '400' aka Games
+PirateBay.topTorrents(400)
+```
+
+### recentTorrents
+```javascript
+// returns the most recent torrents
+PirateBay.<span class="apidocCodeKeywordSpan">recentTorrents</span>()
+```
+
+### userTorrents
+```javascript
+// Gets a specific user's torrents
+PirateBay.userTorrents('YIFY', {
+page: 3,
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.thepiratebay.PirateBay.search" id="apidoc.element.thepiratebay.PirateBay.search">
+        function <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>search
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function search() {
+  var title = arguments.length &gt; 0 &amp;&amp; arguments[0] !== undefined ? arguments[0] : '*';
+  var opts = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : {};
+
+  var convertedCategory = resolveCategory(opts.category, parseInt(searchDefaults.category, 10));
+
+  var castedOptions = (0, _extends3.default)({}, opts, {
+    page: opts.page ? castNumberToString(opts.page) : searchDefaults.page,
+    category: opts.category ? castNumberToString(convertedCategory) : searchDefaults.category,
+    orderby: opts.orderby ? castNumberToString(opts.orderby) : searchDefaults.orderBy
+  });
+
+  var _searchDefaults$caste = (0, _extends3.default)({}, searchDefaults, castedOptions),
+      page = _searchDefaults$caste.page,
+      category = _searchDefaults$caste.category,
+      orderBy = _searchDefaults$caste.orderBy,
+      sortBy = _searchDefaults$caste.sortBy,
+      rest = (0, _objectWithoutProperties3.default)(_searchDefaults$caste, ['page', 'category', 'orderBy', 'sortBy']);
+
+  var orderingNumber = convertOrderByObject({ orderBy: orderBy, sortBy: sortBy });
+
+  var url = baseUrl + '/s/?' + _querystring2.default.stringify({
+    q: title,
+    category: category,
+    page: page,
+    orderby: orderingNumber
+  });
+
+  return (0, _Parser.parsePage)(url, _Parser.parseResults, rest.filter);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+const PirateBay = require('thepiratebay')
+```
+All methods are asynchronous!
+You can use promises, ES6 generators, or async/await
+
+Using promises:
+```javascript
+PirateBay.<span class="apidocCodeKeywordSpan">search</span>('Game of Thrones', {
+  category: 205
+})
+.then(results =&gt; console.log(results))
+.catch(err =&gt; console.log(err))
+```
+
+Using ES7 async/await (requires babel)
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.thepiratebay.PirateBay.topTorrents" id="apidoc.element.thepiratebay.PirateBay.topTorrents">
+        function <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>topTorrents
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function topTorrents() {
+  var category = arguments.length &gt; 0 &amp;&amp; arguments[0] !== undefined ? arguments[0] : 'all';
+
+  var castedCategory = void 0;
+
+  // Check if category is number and can be casted
+  if (parseInt(category, 10)) {
+    castedCategory = castNumberToString(category);
+  }
+
+  return (0, _Parser.parsePage)(baseUrl + '/top/' + (castedCategory || category), _Parser.parseResults);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+*/
+```
+
+### topTorrents
+```javascript
+// returns top 100 torrents
+PirateBay.<span class="apidocCodeKeywordSpan">topTorrents</span>()
+
+// returns top 100 torrents for the category '400' aka Games
+PirateBay.topTorrents(400)
+```
+
+### recentTorrents
+```javascript
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.thepiratebay.PirateBay.userTorrents" id="apidoc.element.thepiratebay.PirateBay.userTorrents">
+        function <span class="apidocSignatureSpan">thepiratebay.PirateBay.</span>userTorrents
+        <span class="apidocSignatureSpan">(username)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function userTorrents(username) {
+  var opts = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : {};
+  var orderby = opts.orderby;
+
+
+  // Determine orderingNumber given orderBy and sortBy
+  if (opts.sortBy || opts.orderBy) {
+    orderby = convertOrderByObject({
+      sortBy: opts.sortBy || 'desc',
+      orderBy: opts.orderBy || 'seeds'
+    });
+  }
+
+  var query = baseUrl + '/user/' + username + '/?' + _querystring2.default.stringify({
+    page: opts.page ? castNumberToString(opts.page) : '0',
+    orderby: orderby || '99'
+  });
+
+  return (0, _Parser.parsePage)(query, _Parser.parseResults);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+// returns the most recent torrents
+PirateBay.recentTorrents()
+```
+
+### userTorrents
+```javascript
+// Gets a specific user's torrents
+PirateBay.<span class="apidocCodeKeywordSpan">userTorrents</span>('YIFY', {
+  page: 3,
+  orderBy: 'name',
+  sortBy: 'asc'
+})
+```
+
+### getCategories
+...</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.thepiratebay.default" id="apidoc.module.thepiratebay.default">module thepiratebay.default</a></h1>
 
 
@@ -1028,6 +1553,24 @@ PirateBay.<span class="apidocCodeKeywordSpan">getCategories</span>()
   subcategories:
    [ { id: '201', name: 'Movies' },
 ...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.thepiratebay.default.getComments" id="apidoc.element.thepiratebay.default.getComments">
+        function <span class="apidocSignatureSpan">thepiratebay.default.</span>getComments
+        <span class="apidocSignatureSpan">(id)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getComments(id) {
+  var url = baseUrl + '/ajax_details_comments.php';
+  var formData = new _formData2.default();
+  formData.append('id', id);
+  return (0, _Parser.parsePage)(url, _Parser.parseCommentsPage, {}, 'POST', formData);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
